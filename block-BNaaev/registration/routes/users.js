@@ -11,7 +11,7 @@ router.get('/register', (req,res,next) => {
 router.post('/register',(req,res,next) => {
  User.create(req.body,(error,user) => {
    if(error) return next(error)
-   res.redirect('/users/login')
+   res.redirect('/')
  })
 })
 
