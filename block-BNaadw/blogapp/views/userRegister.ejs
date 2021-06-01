@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/stylesheets/style.css">
+</head>
+<body>
+    <h1>Registration</h1>
+    <div class="container">
+    <form action="/users/register" method="POST">
+        <div class="form-control">
+        <label for="">First Name</label>
+        <input type="text" name="firstName" placeholder="enter first name"/>
+        </div>
+        <div class="form-control">
+        <label for="">Last Name</label>
+        <input type="text" name="lastName" placeholder="enter last name"/>
+        </div>
+        <div class="form-control">
+        <label for=""> Email</label>
+        <input type="email" name="email" placeholder="enter email"/>
+        </div>
+        <div class="form-control">
+        <label for="">Password</label>
+        <input type="password" name="password" placeholder="enter password"/>
+        </div>
+        <div class="form-control">
+        <label for="">City</label>
+        <input type="text" name="city" placeholder="enter city name"/>
+        </div>
+        <input type="submit" value="Register"/>
+        <a href="/users/login"><button>Login</button></a>
+
+
+    </form>
+    </div>
+</body>
+</html>
+<!-- 
+firstName
+lastName
+emailunique
+password
+city -->
